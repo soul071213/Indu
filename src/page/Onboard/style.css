@@ -1,0 +1,57 @@
+.OnboardBack{
+    background-color: #F9FAFB;
+    width:  100vw;
+    height: calc(100vh - 100px);
+}
+
+.OnboardLayout{
+    width: 100%;
+    padding: 0 14% 0 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OnbaordText{
+    width: 32%;
+    font-size: 42px;
+    font-family: 'Pretendard-SemiBold';
+}
+
+.OnboardContainer{
+    width: 100%;
+    height: 23vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.OboardContainerText{
+    font-family: 'Pretendard-Medium';
+    font-size: 28px;
+    padding-top: 3vw;
+}
+
+.OnboardButton{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.upload {
+    width: 173px;
+    height: 46px;
+    border-radius: 4px;
+    background: #FACC15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Pretendard-Medium';
+    margin-top: 52px;
+}
