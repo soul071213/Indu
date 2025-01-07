@@ -1,0 +1,51 @@
+.ChatBack{
+    width: 100%;
+    height: 100vh;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ChatContainer{
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    width: 40%;
+    height: 75%;
+    background-color: white;
+    position: relative;
+}   
+.chatting{
+    width: 100%;
+    position: absolute;
+    bottom: 17px;
+    left: 24px;
+    display: flex;
+}
+.chatinput{
+    outline: none;
+    background-color: #F9FAFB;
+    width: 75%;
+    height: 46px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Pretendard-Medium';
+    padding: 0 12px;
+}
+.chatbutton{
+    background-color: #FDE047;
+    border-radius: 8px;
+    margin-left: 12px;
+    border: 0;
+    width: 18%;
+    height: 46px;
+    font-size: 22px;
+    font-family: 'Pretendard-Medium';
+}
+.messages {
+    padding: 20px;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
