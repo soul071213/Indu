@@ -17,6 +17,8 @@
     width: 32%;
     font-size: 42px;
     font-family: 'Pretendard-SemiBold';
+    position: relative;
+    z-index: 2;
 }
 
 .OnboardContainer{
@@ -54,4 +56,11 @@
     font-size: 20px;
     font-family: 'Pretendard-Medium';
     margin-top: 52px;
+}
+
+.lines{
+    z-index: 1; 
+    position: absolute;
+    top: 236px;
+    left: 133px;
 }
